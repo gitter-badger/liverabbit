@@ -28,5 +28,8 @@ module.exports.models = {
   *                                                                          *
   ***************************************************************************/
   // migrate: 'alter'
+  connection: 'localDiskDb',
+  migrate: 'drop'
+  
 
 };
